@@ -1,0 +1,20 @@
+{
+    "name": "eva/filesystem",
+    "description": "Common interface for HTTP messages",
+    "keywords": [],
+    "homepage": "https://github.com/thewarmthofyourhands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thewarmthofyourhands"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eva\\Filesystem\\": "src/"
+        }
+    }
+}
